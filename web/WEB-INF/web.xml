@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<web-app version="2.5" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee                       http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd">
+    <servlet>
+        <servlet-name>ControladorCliente</servlet-name>
+        <servlet-class>Controlador.ControladorCliente</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ControladorEmpleado</servlet-name>
+        <servlet-class>Controlador.ControladorEmpleado</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ControladorTipoEmpleado</servlet-name>
+        <servlet-class>Controlador.ControladorTipoEmpleado</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ControladorCategoriaProducto</servlet-name>
+        <servlet-class>Controlador.ControladorCategoriaProducto</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ControladorMarca</servlet-name>
+        <servlet-class>Controlador.ControladorMarca</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ControladorProveedor</servlet-name>
+        <servlet-class>Controlador.ControladorProveedor</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ControladorProducto</servlet-name>
+        <servlet-class>Controlador.ControladorProducto</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ControladorVentas</servlet-name>
+        <servlet-class>Controlador.ControladorVentas</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ControladorCliente</servlet-name>
+        <url-pattern>/ControladorCliente</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ControladorEmpleado</servlet-name>
+        <url-pattern>/ControladorEmpleado</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ControladorTipoEmpleado</servlet-name>
+        <url-pattern>/ControladorTipoEmpleado</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ControladorCategoriaProducto</servlet-name>
+        <url-pattern>/ControladorCategoriaProducto</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ControladorMarca</servlet-name>
+        <url-pattern>/ControladorMarca</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ControladorProveedor</servlet-name>
+        <url-pattern>/ControladorProveedor</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ControladorProducto</servlet-name>
+        <url-pattern>/ControladorProducto</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ControladorVentas</servlet-name>
+        <url-pattern>/ControladorVentas</url-pattern>
+    </servlet-mapping>
+</web-app>
